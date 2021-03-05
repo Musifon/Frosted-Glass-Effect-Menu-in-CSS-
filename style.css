@@ -1,0 +1,106 @@
+body {
+	
+ background-image: linear-gradient(180deg, #53d8d8, #ece3e2);
+	padding: 2%;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 130rem;
+	height: 5rem;
+	box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .3);	
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, .15);
+	text-align: center;
+	-webkit-backdrop-filter: blur(5px);
+	        backdrop-filter: blur(5px);
+}
+
+/*--------------STYLE HEADER--------------*/
+
+/*List Items*/
+ul.ml-navigation-bar-5 li{
+	display:block;
+	margin: 0px;
+	float:left;
+	border-right: 1px solid rgba(0,0,0,.1);
+	box-shadow: 1px 0px 0px rgba(255,255,255,.75);
+}
+
+ul.ml-navigation-bar-5 li.active {
+	border: none;
+}
+
+ul.ml-navigation-bar-5 ul li {
+	float:none;
+	margin: 5px 0;
+	border-right: none;
+	box-shadow: none;
+}
+
+/* Regular Links*/
+ul.ml-navigation-bar-5 a:active, ul.ml-navigation-bar-5 a:focus {
+	outline-style:none;
+}
+
+ul.ml-navigation-bar-5 a {
+	height: 50px;
+	display:block;
+	line-height: 52px;
+	background: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,.50);
+	padding: 0px 15px;
+	text-decoration: none;
+	color: rgba(0,0,0,.60);	
+	margin: 0 0 0 5px;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+/*Hover State*/
+ul.ml-navigation-bar-5 li:hover>a{
+	color: #fff;
+	text-shadow: none;
+	text-decoration:none;
+	text-shadow: 0 1px 3px rgba(0,0,0,.50);
+}
+
+ul.ml-navigation-bar-5 li a:hover{
+	position:relative;
+}
+
+
+/*Search Field*/
+ul.ml-navigation-bar-5 .search-field {
+	float: right;
+	width: 250px;
+	padding: 2px;
+	margin: 8px;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px rgba(255,255,255,.75), inset 0 1px 2px rgba(0,0,0,.5);
+}
+ul.ml-navigation-bar-5 .search-field input[type=text] {
+	background: none;
+	border: none;
+	text-decoration: none;
+	color: #fff;	
+	font-weight: normal;
+	font-size: 16px;
+	width: 184px;
+	padding: 5px 5px 0px 0px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.50);
+}
+
+ul.ml-navigation-bar-5 .search-field input[type=text]:focus {
+	outline: none;
+}
+
+ul.ml-navigation-bar-5 .search-button {
+	float: right;
+	margin:  0px 0px 0 0;
+}
